@@ -257,7 +257,7 @@ void encabezado(){
 	printf("                 I TÉRMINO, AÑO LECTIVO 2014-2015\n");
 	printf("                         PROYECTO FINAL\n");
 	printf("-INTEGRANTES:\n");
-	printf("  *ESTEBAN MUÑOZ GUEVARA.\n  *JOSE VÉLEZ GÓMEZ.\n  *ERICK VARELA BENAVIDEZ.\n");
+	printf("  *Daniel Izquierdo, Kevin Ortiz, Jhon Barreiro.\n");
 	printf("-PROFESOR:\n");
 	printf("  *MSC. CARLOS MERA GÓMEZ.\n");
 }
