@@ -45,7 +45,7 @@ main(int argc, char *argv[])
   else
   {
         bcopy(host->h_addr_list[0], &(address.sin_addr.s_addr),
-host->h_length);
+         host->h_length);
   }
 
   memset(sendpack, 0x0, sizeof(sendpack));
@@ -55,7 +55,7 @@ host->h_length);
 
   icp->icmp_type=ICMP_ECHO;
   icp->icmp_code=0;
-  icp->icmp_seq1=1; /* any abritrary sequence number */
+  icp->icmp_seq1=1000; /* any abritrary sequence number */
   icp->icmp_id1=123; /* any arbitrary id */
 
   address.sin_family = AF_INET;
