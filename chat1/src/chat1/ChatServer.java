@@ -17,9 +17,13 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.Hashtable;
 
+
+
+
+
 public class ChatServer {
 
-    private static int port = 9018; /* port to listen on */
+    private static int port = 50500; /* port to listen on */
 
 
     public static void main(String[] args) throws IOException {
