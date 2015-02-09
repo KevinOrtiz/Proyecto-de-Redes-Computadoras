@@ -18,9 +18,9 @@ import java.net.UnknownHostException;
 
 public class ChatClient {
 
-    private static int port = 5000; /* port to connect to */
+    private static int port = 9018; /* port to connect to */
 
-    private static String host = "localhost"; /* host to connect to (server's IP)*/
+    private static String host = "192.168.10.122"; /* host to connect to (server's IP)*/
 
     private static BufferedReader stdIn;
     private static String nick;
